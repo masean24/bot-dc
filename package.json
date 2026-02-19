@@ -1,0 +1,21 @@
+{
+  "name": "discord-roblox-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with Roblox verification, mini-games, analytics, and admin tools",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.4.1",
+    "node-cache": "^5.1.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

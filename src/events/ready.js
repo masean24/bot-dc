@@ -1,7 +1,7 @@
 const logger = require('../services/loggerService');
 
 module.exports = {
-  name: 'ready',
+  name: 'clientReady',
   once: true,
 
   /**
